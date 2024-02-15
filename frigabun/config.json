@@ -1,0 +1,76 @@
+{
+  "name": "frigabun",
+  "version": "3.0.0",
+  "slug": "frigabun",
+  "description": "🌐 DynDNS update microservice for Gandi, Porkbun and Cloudflare with FritzBox routers",
+  "url": "https://github.com/davidramiro/frigabun",
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "armv7"
+  ],
+  "panel_icon": "mdi:router-network",
+  "ports": {
+    "9595/tcp": 9595
+  },
+  "ports_description": {
+    "9595/tcp": "API port"
+  },
+  "options": {
+    "api": {
+      "port": 9595,
+      "enableStatusLog": false,
+      "prettyLog": true,
+      "logLevel": "debug"
+    },
+    "gandi": {
+      "enabled": false,
+      "baseUrl": "https://dns.api.gandi.net/api/v5",
+      "apiKey": "",
+      "ttl": 1800
+    },
+    "porkbun": {
+      "enabled": false,
+      "baseUrl": "https://porkbun.com/api/json/v3",
+      "apiKey": "",
+      "secretApiKey": "",
+      "ttl": 1800
+    },
+    "cloudflare": {
+      "enabled": false,
+      "baseUrl": "https://api.cloudflare.com/client/v4",
+      "apiKey": "",
+      "zoneId": "",
+      "ttl": 1800
+    }
+  },
+  "schema": {
+    "api": {
+      "port": "int",
+      "enableStatusLog": "bool",
+      "prettyLog": "bool",
+      "logLevel": "str"
+    },
+    "gandi": {
+      "enabled": "bool",
+      "baseUrl": "str?",
+      "apiKey": "str?",
+      "ttl": "int?"
+    },
+    "porkbun": {
+      "enabled": "bool",
+      "baseUrl": "str?",
+      "apiKey": "str?",
+      "secretApiKey": "str?",
+      "ttl": "int?"
+    },
+    "cloudflare": {
+      "enabled": "bool",
+      "baseUrl": "str?",
+      "apiKey": "str?",
+      "zoneId": "str?",
+      "ttl": "int?"
+    }
+  }
+}
