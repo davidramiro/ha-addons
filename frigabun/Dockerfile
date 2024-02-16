@@ -12,12 +12,11 @@ ENV PATH /go/bin:$PATH
 
 RUN mkdir -p ${GOPATH}/src ${GOPATH}/bin
 
-
 WORKDIR $GOPATH/src
-COPY go.mod go.sum ./
-RUN go mod download
+RUN git clone https://github.com/davidramiro/frigabun.git
 
-COPY frigabun/. ./
+WORKDIR $GOPATH/src/frigabun
+RUN go mod download
 
 RUN CGO_ENABLED=0 GOOS=linux go build -o /frigabun
 EXPOSE 9595
