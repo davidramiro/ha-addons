@@ -1,6 +1,6 @@
 {
   "name": "frigabun",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "slug": "frigabun",
   "description": "🌐 DynDNS update microservice for Gandi, Porkbun and Cloudflare with FritzBox routers",
   "url": "https://github.com/davidramiro/frigabun",
