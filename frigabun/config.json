@@ -1,15 +1,11 @@
 {
   "name": "frigabun",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "slug": "frigabun",
   "description": "🌐 DynDNS update microservice for Gandi, Porkbun and Cloudflare with FritzBox routers",
   "url": "https://github.com/davidramiro/frigabun",
   "init": false,
-  "arch": [
-    "aarch64",
-    "amd64",
-    "armv7"
-  ],
+  "arch": ["aarch64", "amd64", "armv7"],
   "panel_icon": "mdi:router-network",
   "ports": {
     "9595/tcp": 9595
