@@ -1,20 +1,18 @@
+## 3.1.2
+
+- 96bc815 build(deps): bump github.com/labstack/echo/v4 from 4.13.3 to 4.13.4
+- 405b7af build(deps): bump github.com/rs/zerolog from 1.33.0 to 1.34.0
+- bae1fbb build(deps): bump github.com/spf13/viper from 1.19.0 to 1.20.0
+- a07c3e2 build(deps): bump github.com/spf13/viper from 1.20.0 to 1.20.1
+- de17053 build(deps): bump golang.org/x/net from 0.33.0 to 0.36.0
+- 77e926e build(deps): bump golang.org/x/net from 0.36.0 to 0.38.0
+- aa79064 chore: add changelog
+- 98e9e62 chore: go mod tidy
+- 2c367ce chore: go mod tidy
+- 880bfd5 ci: bump mockery
+
 ## 3.1.1
 
-- 3622e55 Merge pull request
-  [#30](https://github.com/davidramiro/frigabun/issues/30) from
-  davidramiro/dependabot/go_modules/github.com/labstack/echo/v4-4.13.0
-- 86eb485 Merge pull request
-  [#31](https://github.com/davidramiro/frigabun/issues/31) from
-  davidramiro/dependabot/go_modules/github.com/labstack/echo/v4-4.13.1
-- 8c8e710 Merge pull request
-  [#32](https://github.com/davidramiro/frigabun/issues/32) from
-  davidramiro/dependabot/go_modules/golang.org/x/crypto-0.31.0
-- aca16c1 Merge pull request
-  [#33](https://github.com/davidramiro/frigabun/issues/33) from
-  davidramiro/dependabot/go_modules/github.com/labstack/echo/v4-4.13.2
-- c77a5dd Merge pull request
-  [#34](https://github.com/davidramiro/frigabun/issues/34) from
-  davidramiro/dependabot/go_modules/github.com/labstack/echo/v4-4.13.3
 - ff03ab4 build(deps): bump github.com/labstack/echo/v4 from 4.12.0 to 4.13.0
 - 065a0c1 build(deps): bump github.com/labstack/echo/v4 from 4.13.0 to 4.13.1
 - d9d439f build(deps): bump github.com/labstack/echo/v4 from 4.13.1 to 4.13.2
@@ -23,9 +21,6 @@
 
 ## 3.1.0
 
-- 2e25253 Merge pull request
-  [#28](https://github.com/davidramiro/frigabun/issues/28) from
-  davidramiro/dependabot/go_modules/github.com/stretchr/testify-1.10.0
 - 370e89c build(deps): bump github.com/stretchr/testify from 1.9.0 to 1.10.0
 - 037c4b8 chore: change required coverage
 - a9ee623 feat: allow omitting subdomain
@@ -33,26 +28,6 @@
 
 ## 3.0.2
 
-- 836e8ca Merge branch 'master' into
-  dependabot/go_modules/github.com/rs/zerolog-1.33.0
-- 8496994 Merge pull request
-  [#22](https://github.com/davidramiro/frigabun/issues/22) from
-  davidramiro/dependabot/go_modules/github.com/stretchr/testify-1.9.0
-- 397f972 Merge pull request
-  [#23](https://github.com/davidramiro/frigabun/issues/23) from
-  davidramiro/dependabot/go_modules/github.com/labstack/echo/v4-4.12.0
-- 886b42d Merge pull request
-  [#24](https://github.com/davidramiro/frigabun/issues/24) from
-  davidramiro/dependabot/go_modules/github.com/rs/zerolog-1.33.0
-- 8323cc7 Merge pull request
-  [#25](https://github.com/davidramiro/frigabun/issues/25) from
-  davidramiro/dependabot/go_modules/github.com/spf13/viper-1.19.0
-- 8f73091 Merge pull request
-  [#26](https://github.com/davidramiro/frigabun/issues/26) from
-  eyalzek/feat/docker-multi-stage-build
-- f04e277 Merge pull request
-  [#27](https://github.com/davidramiro/frigabun/issues/27) from
-  eyalzek/feat/update-porkbun-hostname
 - 84eda73 Update Dockerfile to use multi-stage build
 - 1a98f49 Update porkbun API host in sample config
 - 659dc51 build(deps): bump github.com/labstack/echo/v4 from 4.11.4 to 4.12.0
