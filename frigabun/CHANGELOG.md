@@ -1,3 +1,9 @@
+## 3.1.3
+
+- cac31c3 build(deps): bump github.com/go-viper/mapstructure/v2
+- 2a73393 build(deps): bump github.com/spf13/viper from 1.20.1 to 1.21.0
+- ea3ff7a fix: don't throw error on existing porkbun entry
+
 ## 3.1.2
 
 - 96bc815 build(deps): bump github.com/labstack/echo/v4 from 4.13.3 to 4.13.4
