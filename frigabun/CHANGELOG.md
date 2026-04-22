@@ -1,3 +1,10 @@
+## 3.1.4
+
+* e3eb6a6 build(deps): bump github.com/labstack/echo/v4 from 4.13.4 to 4.14.0
+* 2ea8c1f build(deps): bump github.com/labstack/echo/v4 from 4.14.0 to 4.15.1
+* bb852ca build(deps): bump github.com/rs/zerolog from 1.34.0 to 1.35.0
+* 642dd73 build(deps): bump github.com/rs/zerolog from 1.35.0 to 1.35.1
+
 ## 3.1.3
 
 - cac31c3 build(deps): bump github.com/go-viper/mapstructure/v2
