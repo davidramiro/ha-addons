@@ -1,3 +1,7 @@
+## 3.1.5
+
+* 074441c build(deps): bump github.com/labstack/echo/v4 from 4.15.1 to 4.15.2
+
 ## 3.1.4
 
 * e3eb6a6 build(deps): bump github.com/labstack/echo/v4 from 4.13.4 to 4.14.0
